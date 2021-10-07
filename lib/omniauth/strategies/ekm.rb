@@ -47,11 +47,13 @@ module OmniAuth
       end
 
       def raw_info
+        puts "******************raw_info**********************************"
         puts access_token
+        puts "******************raw_info**********************************"
         @raw_info ||= access_token.get("/api/v2/user").parsed
       end
     end
   end
 end
 
-OmniAuth.config.add_camelization "gumroad", "Gumroad"
+OmniAuth.config.add_camelization "ekm", "Ekm"

@@ -1,14 +1,14 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/omniauth-gumroad/version', __FILE__)
+require File.expand_path('../lib/omniauth-ekm/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = "omniauth-gumroad"
-  gem.version     = OmniAuth::Gumroad::VERSION
+  gem.name        = "omniauth-ekm"
+  gem.version     = OmniAuth::EKM::VERSION
   gem.authors     = ["Cristhian Ferreira"]
   gem.email       = ["cristhian@codemera.com"]
   gem.homepage    = ""
   gem.summary     = %q{OmniAuth strategy for EKM }
-#   gem.description = %q{OmniAuth strategy for Gumroad, see https://github.com/gumroad/omniauth-gumroad for examples and more information.}
+#   gem.description = %q{OmniAuth strategy for ekm, see https://github.com/ekm/omniauth-ekm for examples and more information.}
   gem.license = 'MIT'
 
   gem.files         = `git ls-files`.split("\n")
